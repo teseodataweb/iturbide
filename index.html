@@ -449,80 +449,100 @@ Hero Area
         </div>
         <div class="hero-bottom-wrap">
             <div class="container">
-                <div class="row align-items-center gy-30">
-                    <div class="col-xl-5">
-                        <div class="slider-area hero-slider-thumb-wrap">
-                            <div class="swiper th-slider hero-grid-thumb" data-slider-options='{"effect":"slide","loop":true,"slidesPerView":"3", "spaceBetween":"16px","centeredSlides": true,"thumbs":{"swiper":".hero-slider10"}}'>
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="box-img">
-                                            <span class="thumb-slider-title">Modelo 01 – 70.54 m²</span>
-                                            <img src="assets/img/hero/hero_bg_10_1.jpg" alt="Image">
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="box-img">
-                                            <span class="thumb-slider-title">Modelo 02 – 60.74 m²</span>
-                                            <img src="assets/img/hero/hero_bg_10_2.jpg" alt="Image">
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="box-img">
-                                            <span class="thumb-slider-title">Modelo 03 – 49.41 m²</span>
-                                            <img src="assets/img/hero/hero_bg_10_3.jpg" alt="Image">
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="box-img">
-                                            <span class="thumb-slider-title">Modelo 04 – 46.95 m²</span>
-                                            <img src="assets/img/hero/hero_bg_10_1.jpg" alt="Image">
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="box-img">
-                                            <span class="thumb-slider-title">Modelo 01 – 70.54 m²</span>
-                                            <img src="assets/img/hero/hero_bg_10_3.jpg" alt="Image">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <button data-slider-prev=".hero-grid-thumb" class="slider-arrow style3"><img src="assets/img/icon/arrow-left.svg" alt="img"></button>
-                            <button data-slider-next=".hero-grid-thumb" class="slider-arrow style3 slider-next"><img src="assets/img/icon/arrow-right.svg" alt="img"></button>
+              <div class="row align-items-center gy-30">
+          
+                <!-- Slider de Imágenes -->
+                <div class="col-xl-5">
+                  <div class="slider-area hero-slider-thumb-wrap">
+                    <div class="swiper th-slider hero-grid-thumb"
+                         data-slider-options='{"effect":"slide","loop":false,"slidesPerView":3,"spaceBetween":16,"centeredSlides": true,"thumbs":{"swiper":".hero-slider10"}}'>
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="box-img">
+                            <span class="thumb-slider-title">Modelo 01</span>
+                            <img src="assets/img/hero/hero_bg_10_1.jpg" alt="Image">
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-xl-7">
-                        <div class="slider-area hero-slider-content-wrap">
-                            <div class="swiper th-slider hero-thumb-content" data-slider-options='{"effect":"slide","loop":false,"slidesPerView":"1","autoHeight": true}'>
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="hero-slider-content">
-                                            <p>Diseño amplio y funcional con dos recámaras y dos baños. Ideal para familias o rentas. Cocina equipada, área de lavado y excelente iluminación en un entorno contemporáneo./p>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="hero-slider-content">
-                                            <p>Perfecto para parejas o profesionistas. Espacio cómodo con recámara privada, baño completo, cocina integral, terraza y cuarto de lavado. Gran equilibrio entre privacidad, confort y estilo moderno.</p>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="hero-slider-content">
-                                            <p>Diseño compacto y eficiente. Cuenta con recámara, baño, cocina integral, terraza y área de lavado. Ideal como inversión, para rentas o como primer hogar en Vallarta.</p>
-
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="hero-slider-content">
-                                            <p>La mejor opción en relación calidad-precio. Con recámara, baño, cocina equipada, terraza y bodega. Espacio bien distribuido con acabados modernos y excelente potencial de rentabilidad. </p>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
+                        <div class="swiper-slide">
+                          <div class="box-img">
+                            <span class="thumb-slider-title">Modelo 02</span>
+                            <img src="assets/img/hero/hero_bg_10_2.jpg" alt="Image">
+                          </div>
                         </div>
+                        <div class="swiper-slide">
+                          <div class="box-img">
+                            <span class="thumb-slider-title">Modelo 03</span>
+                            <img src="assets/img/hero/hero_bg_10_3.jpg" alt="Image">
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="box-img">
+                            <span class="thumb-slider-title">Modelo 04</span>
+                            <img src="assets/img/hero/hero_bg_10_1.jpg" alt="Image">
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                    <button data-slider-prev=".hero-grid-thumb" class="slider-arrow style3">
+                      <img src="assets/img/icon/arrow-left.svg" alt="img">
+                    </button>
+                    <button data-slider-next=".hero-grid-thumb" class="slider-arrow style3 slider-next">
+                      <img src="assets/img/icon/arrow-right.svg" alt="img">
+                    </button>
+                  </div>
                 </div>
+          
+                <!-- Slider de Descripciones -->
+                <div class="col-xl-7">
+                  <div class="slider-area hero-slider-content-wrap">
+                    <div class="swiper th-slider hero-thumb-content"
+                         data-slider-options='{"effect":"slide","loop":false,"slidesPerView":1,"autoHeight":true}'>
+                      <div class="swiper-wrapper">
+          
+                        <div class="swiper-slide">
+                          <div class="hero-slider-content">
+                            <p>Diseño amplio y funcional con dos recámaras y dos baños. Ideal para familias o rentas. Cocina equipada, área de lavado y excelente iluminación en un entorno contemporáneo.</p>
+                          </div>
+                        </div>
+          
+                        <div class="swiper-slide">
+                          <div class="hero-slider-content">
+                            <p>Perfecto para parejas o profesionistas. Espacio cómodo con recámara privada, baño completo, cocina integral, terraza y cuarto de lavado. Gran equilibrio entre privacidad, confort y estilo moderno.</p>
+                          </div>
+                        </div>
+          
+                        <div class="swiper-slide">
+                          <div class="hero-slider-content">
+                            <p>Diseño compacto y eficiente. Cuenta con recámara, baño, cocina integral, terraza y área de lavado. Ideal como inversión, para rentas o como primer hogar en Vallarta.</p>
+                          </div>
+                        </div>
+          
+                        <div class="swiper-slide">
+                          <div class="hero-slider-content">
+                            <p>La mejor opción en relación calidad-precio. Con recámara, baño, cocina equipada, terraza y bodega. Espacio bien distribuido con acabados modernos y excelente potencial de rentabilidad.</p>
+                          </div>
+                        </div>
+          
+                      </div>
+                    </div>
+          
+                    <!-- Etiqueta inferior -->
+                    <div class="about-tag">
+                      <div class="about-experience-tag">
+                        <span class="circle-title-anime">Explore and find Your Dream place</span>
+                      </div>
+                      <div class="about-tag-thumb scroll-down">
+                        <a href="#about-sec" class="hero-scroll-wrap"></a>
+                      </div>
+                    </div>
+          
+                  </div>
+                </div>
+          
+              </div>
             </div>
-        </div>
+          </div>
+          
     </div>
     <!--======== / Hero Section ========--><!--==============================
 Counter Area  
@@ -544,14 +564,14 @@ Counter Area
                 </div>
                 <div class="counter-card style4">
                     <div class="media-body">
-                        <h2 class="box-number text-theme"><span class="counter-number text-theme">18</span></h2>
-                        <p class="box-text text-theme">Habitaciones con 1 recámara</p>
+                        <h2 class="box-number text-theme"><span class="counter-number text-theme">5</span>+</h2>
+                        <p class="box-text text-theme">Amenidades de lujo</p>
                     </div>
                 </div>
                 <div class="counter-card style4">
                     <div class="media-body">
-                        <h2 class="box-number text-theme"><span class="counter-number text-theme">6</span></h2>
-                        <p class="box-text text-theme">Habitaciones con 2 recámaras</p>
+                        <h2 class="box-number text-theme"><span class="counter-number text-theme">4</span></h2>
+                        <p class="box-text text-theme">Modelos diferentes</p>
                     </div>
                 </div>
             </div>
@@ -574,7 +594,7 @@ About Area
                     <div class="title-area mb-32">
                         <span class="sub-title">Acerca de</span>
                         <h2 class="sec-title text-theme">Lixxus Capital</h2>
-                        <p class="sec-text text-theme">Lixxus Capital impulsa desarrollos inmobiliarios estratégicos con visión de largo plazo. Ofrece proyectos innovadores, accesibles y con alta plusvalía, ideales para inversionistas y compradores que buscan valor, seguridad y rentabilidad.</p>
+                        <p class="sec-text text-theme">Impulsamos desarrollos inmobiliarios estratégicos con visión de largo plazo. Ofrecemos proyectos innovadores, accesibles y con alta plusvalía, ideales para inversionistas y compradores que buscan valor, seguridad y rentabilidad.</p>
                     </div>
                     <div class="checklist style7">
                         <ul>
@@ -691,8 +711,8 @@ Feature Area
                         <li class="why-feature-list-wrap">
                             <div class="number">02</div>
                             <div class="why-feature-list-details">
-                                <h4 class="feature-title">Ubicación Estratégica</h4>
-                                <p class="feature-text">Colonia con alto crecimiento, conectividad urbana y gran potencial de plusvalía.</p>
+                                <h4 class="feature-title">Alta Rentabilidad</h4>
+                                <p class="feature-text">Ofrece un potencial de plusvalía del 10.8%, lo que representa una ganancia estimada de $248,459.40 MXN sobre su valor actual.</p>
                             </div>
                         </li>
                         <li class="why-feature-list-wrap">
@@ -840,187 +860,211 @@ Marquee Area
 ==============================-->
 
     <!--==============================
-Contact Area   
-==============================-->
-    <div class="overflow-hidden space contact-area-3 z-index-common" data-bg-src="assets/img/bg/contact-bg-1-1.png" data-overlay="title" data-opacity="3" id="contact-sec">
-        <div class="contact-bg-shape3-1 spin shape-mockup " data-bottom="5%" data-left="12%">
-            <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
-        </div>
-        <div class="container">
-            <div class="row gx-35">
-                <div class="col-lg-6">
-                    <div class="appointment-wrap2 bg-white me-xxl-5">
-                        <h2 class="form-title text-theme">Solicitar una visita</h2>
-                        <form action="#" method="POST" class="appointment-form ajax-contact">
-                            <div class="row">
-                                <div class="form-group style-border style-radius col-12">
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="Tu Nombre*">
-                                    <i class="fal fa-user"></i>
-                                </div>
-                                <div class="form-group style-border style-radius col-12">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Tu Email*">
-                                    <i class="fal fa-envelope"></i>
-                                </div>
-                                <div class="form-group style-border style-radius col-12">
-                                    <input type="text" class="form-control" name="phone" id="phone" placeholder="Tu Teléfono*">
-                                    <i class="fal fa-phone"></i>
-                                </div>
-                                <div class="form-group style-border style-radius col-12">
-                                    <input type="text" class="form-control" name="city" id="city" placeholder="Tu Ciudad*">
-                                    <i class="fal fa-map-marker-alt"></i>
-                                </div>
-                                <div class="form-group style-border style-radius col-12">
-                                    <input type="text" class="form-control" name="zip" id="zip" placeholder="Tu Código Postal*">
-                                    <i class="fal fa-map-pin"></i>
-                                </div>
-                                <div class="form-group style-border style-radius col-md-12">
-                                    <select name="unit_of_interest" id="unit_of_interest" class="form-select">
-                                        <option value="" disabled selected hidden>Selecciona unidad de interés</option>
-                                        <option value="Modelo 1">Modelo 1</option>
-                                        <option value="Modelo 2">Modelo 2</option>
-                                        <option value="Modelo 3">Modelo 3</option>
-                                        <option value="Modelo 4">Modelo 4</option>
-                                    </select>
-                                    <i class="fal fa-angle-down"></i>
-                                </div>
-                                <div class="col-12 form-group style-border style-radius">
-                                    <i class="far fa-comments"></i>
-                                    <textarea placeholder="Escribe tu mensaje" class="form-control"></textarea>
-                                </div>
-                                <div class="col-12 form-btn mt-4">
-                                    <button class="th-btn">Enviar mensaje <span class="btn-icon"><img src="assets/img/icon/paper-plane.svg" alt="img"></span></button>
-                                </div>
-                            </div>
-                            <p class="form-messages mb-0 mt-3"></p>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="location-map contact-sec-map z-index-common">
-            <div class="contact-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1424.4129333148487!2d-105.2068154!3d20.644552599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84214f9cb1d8522d%3A0xf7a991fbb34859bf!2sAgust%C3%ADn%20de%20Iturbide%2C%20Independencia%2C%2048327%20Puerto%20Vallarta%2C%20Jal.!5e1!3m2!1ses!2smx!4v1744836275305!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
-            <div class="location-map-address bg-theme">
-                <div class="thumb">
-                    <img src="assets/img/property/property_inner_1.jpg" alt="img">
-                </div>
-                <div class="media-body">
-                    <h4 class="title">Dirección:</h4>
-                    <p class="text">Independencia, Puerto Vallarta, Jal.</p>
-                    <h4 class="title">Código Postal:</h4>
-                    <p class="text">48327</p>
-                </div>
-            </div>
-        </div>
-    </div><!--==============================
+
 
 Testimonial Area  
 ==============================-->
-    <section class="overflow-hidden space-top overflow-hidden">
-        <div class="container">
-            <div class="row gy-60 flex-row-reverse">
-                <div class="col-xl-4">
-                    <div class="testi-thumb-wrap7">
-                        <div class="img1">
-                            <img src="assets/img/testimonial/testi_thumb_7_1.png" alt="img">
-                        </div>
+
+<section class="overflow-hidden space-top overflow-hidden">
+    <div class="container">
+        <div class="row gy-60 flex-row-reverse">
+            <div class="col-xl-4">
+                <div class="testi-thumb-wrap7">
+                    <div class="img1">
+                        <img src="assets/img/testimonial/testi_thumb_7_1.png" alt="img">
                     </div>
                 </div>
-                <div class="col-xl-8">
-                    <div class="title-area">
-                        <span class="sub-title">Testimoniales</span>
-                        <h2 class="sec-title text-theme">Lo que los clientes dicen</h2>
-                    </div>
-                    <div class="swiper th-slider testi-slider2" id="testiSlider2" data-slider-options='{"spaceBetween":"48","breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"1"},"1200":{"slidesPerView":"1"}}}'>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="testi-grid-wrap2">
-                                    <div class="testi-grid-thumb">
-                                        <img src="assets/img/testimonial/testi_thumb_2_1.png" alt="img">
-                                    </div>
-                                    <div class="testi-card style2 style-border">
-                                        <div class="testi-grid_review">
-                                            <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
-                                        </div>
-                                        <p class="testi-card_text">"Llevaba meses buscando un lugar en Vallarta y Torre Inturbide me convenció por su ubicación y diseño moderno. Me encanta la idea de invertir desde la preventa."</p>
-                                        <div class="testi-card_profile">
-                                            <div class="quote-icon">
-                                                <img src="assets/img/icon/qoute2.svg" alt="icon">
-                                            </div>
-                                            <div class="avatar">
-                                                <img src="assets/img/testimonial/testi_2_1.png" alt="avatar">
-                                            </div>
-                                            <div class="testi-card_profile-details">
-                                                <h3 class="testi-card_name">Mario Torres</h3>
-                                                <span class="testi-card_desig">Guadalajara, Jal.</span>
-                                            </div>
-                                        </div>
-
-                                    </div>
+            </div>
+            <div class="col-xl-8">
+                <div class="title-area">
+                    <span class="sub-title">Testimonial</span>
+                    <h2 class="sec-title text-theme">Lo que nuestros clientes dicen</h2>
+                </div>
+                <div class="swiper th-slider testi-slider2" id="testiSlider2" data-slider-options='{"spaceBetween":"48","breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"1"},"1200":{"slidesPerView":"1"}}}'>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testi-grid-wrap2">
+                                <div class="testi-grid-thumb">
+                                    <img src="assets/img/testimonial/testi_thumb_1_1.png" alt="img">
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testi-grid-wrap2">
-                                    <div class="testi-grid-thumb">
-                                        <img src="assets/img/testimonial/testi_thumb_2_2.png" alt="img">
+                                <div class="testi-card style2 style-border">
+                                    <div class="testi-grid_review">
+                                        <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                     </div>
-                                    <div class="testi-card style2 style-border">
-                                        <div class="testi-grid_review">
-                                            <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
+                                    <p class="testi-card_text">“Conocí el proyecto a través de un amigo y me sorprendió la relación calidad-precio. Sé que es una zona en crecimiento y me da tranquilidad invertir desde temprano.”</p>
+                                    <div class="testi-card_profile">
+                                        <div class="quote-icon">
+                                            <img src="assets/img/icon/qoute2.svg" alt="icon">
                                         </div>
-                                        <p class="testi-card_text">"Puerto Vallarta es mi lugar favorito en México. Vi en Torre Inturbide una gran oportunidad para invertir en preventa y generar ingresos con rentas temporales."</p>
-                                        <div class="testi-card_profile">
-                                            <div class="quote-icon">
-                                                <img src="assets/img/icon/qoute2.svg" alt="icon">
-                                            </div>
-                                            <div class="avatar">
-                                                <img src="assets/img/testimonial/testi_2_2.png" alt="avatar">
-                                            </div>
-                                            <div class="testi-card_profile-details">
-                                                <h3 class="testi-card_name">Jonathan Miller</h3>
-                                                <span class="testi-card_desig">San Diego, CA</span>
-                                            </div>
+                                        <div class="avatar">
+                                            <img src="assets/img/testimonial/testi_2_1.png" alt="avatar">
                                         </div>
+                                        <div class="testi-card_profile-details">
+                                            <h3 class="testi-card_name">Carlos Méndez</h3>
+                                            <span class="testi-card_desig">CDMX</span>
+                                        </div>
+                                    </div>
 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testi-grid-wrap2">
-                                    <div class="testi-grid-thumb">
-                                        <img src="assets/img/testimonial/testi_thumb_2_1.png" alt="img">
-                                    </div>
-                                    <div class="testi-card style2 style-border">
-                                        <div class="testi-grid_review">
-                                            <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
-                                        </div>
-                                        <p class="testi-card_text">"Me gustó que es un proyecto nuevo pero con buen respaldo. La zona tiene muchísimo potencial y sé que tomé una buena decisión al apartar desde ahora"</p>
-                                        <div class="testi-card_profile">
-                                            <div class="quote-icon">
-                                                <img src="assets/img/icon/qoute2.svg" alt="icon">
-                                            </div>
-                                            <div class="avatar">
-                                                <img src="assets/img/testimonial/testi_2_1.png" alt="avatar">
-                                            </div>
-                                            <div class="testi-card_profile-details">
-                                                <h3 class="testi-card_name">Rodrigo Gómez</h3>
-                                                <span class="testi-card_desig">Property Expert</span>
-                                            </div>
-                                        </div>
-
-                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="swiper-slide">
+                            <div class="testi-grid-wrap2">
+                                <div class="testi-grid-thumb">
+                                    <img src="assets/img/testimonial/testi_thumb_2_2.png" alt="img">
+                                </div>
+                                <div class="testi-card style2 style-border">
+                                    <div class="testi-grid_review">
+                                        <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
+                                    </div>
+                                    <p class="testi-card_text">“Puerto Vallarta es mi lugar favorito en México. Vi en Torre Inturbide una gran oportunidad para invertir en preventa y generar ingresos con rentas temporales.”</p>
+                                    <div class="testi-card_profile">
+                                        <div class="quote-icon">
+                                            <img src="assets/img/icon/qoute2.svg" alt="icon">
+                                        </div>
+                                        <div class="avatar">
+                                            <img src="assets/img/testimonial/testi_2_2.png" alt="avatar">
+                                        </div>
+                                        <div class="testi-card_profile-details">
+                                            <h3 class="testi-card_name">Jonathan Miller </h3>
+                                            <span class="testi-card_desig">San Diego, CA</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testi-grid-wrap2">
+                                <div class="testi-grid-thumb">
+                                    <img src="assets/img/testimonial/testi_thumb_2_1.png" alt="img">
+                                </div>
+                                <div class="testi-card style2 style-border">
+                                    <p class="testi-card_text">“Llevaba meses buscando un lugar en Vallarta y Torre Inturbide me convenció por su ubicación y diseño moderno. Me encanta la idea de invertir desde la preventa.”</p>
+                                    <div class="testi-card_profile">
+                                        <div class="quote-icon">
+                                            <img src="assets/img/icon/qoute2.svg" alt="icon">
+                                        </div>
+                                        <div class="avatar">
+                                            <img src="assets/img/testimonial/testi_2_1.png" alt="avatar">
+                                        </div>
+                                        <div class="testi-card_profile-details">
+                                            <h3 class="testi-card_name">Mario Torres </h3>
+                                            <span class="testi-card_desig"> Guadalajara, Jal.</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testi-grid-wrap2">
+                                <div class="testi-grid-thumb">
+                                    <img src="assets/img/testimonial/testi_thumb_2_2.png" alt="img">
+                                </div>
+                                <div class="testi-card style2 style-border">
+                                    <div class="testi-grid_review">
+                                        <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
+                                    </div>
+                                    <p class="testi-card_text">“Conocí el proyecto a través de un amigo y me sorprendió la relación calidad-precio. Sé que es una zona en crecimiento y me da tranquilidad invertir desde temprano.”</p>
+                                    <div class="testi-card_profile">
+                                        <div class="quote-icon">
+                                            <img src="assets/img/icon/qoute2.svg" alt="icon">
+                                        </div>
+                                        <div class="avatar">
+                                            <img src="assets/img/testimonial/testi_2_2.png" alt="avatar">
+                                        </div>
+                                        <div class="testi-card_profile-details">
+                                            <h3 class="testi-card_name">Carlos Méndez</h3>
+                                            <span class="testi-card_desig">CDMX</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
 
+        </div>
+    </div>
+</section>
+    <!--==============================
+
+Contact Area   
+==============================-->
+<div class="overflow-hidden space contact-area-3 z-index-common" data-bg-src="assets/img/bg/contact-bg-1-1.png" data-overlay="title" data-opacity="3" id="contact-sec">
+    <div class="contact-bg-shape3-1 spin shape-mockup " data-bottom="5%" data-left="12%">
+        <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
+    </div>
+    <div class="container">
+        <div class="row gx-35">
+            <div class="col-lg-6">
+                <div class="appointment-wrap2 bg-white me-xxl-5">
+                    <h2 class="form-title text-theme">Solicitar una visita</h2>
+                    <form action="#" method="POST" class="appointment-form ajax-contact">
+                        <div class="row">
+                            <div class="form-group style-border style-radius col-12">
+                                <input type="text" class="form-control" name="name" id="name" placeholder="Tu Nombre*">
+                                <i class="fal fa-user"></i>
+                            </div>
+                            <div class="form-group style-border style-radius col-12">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Tu Email*">
+                                <i class="fal fa-envelope"></i>
+                            </div>
+                            <div class="form-group style-border style-radius col-12">
+                                <input type="text" class="form-control" name="phone" id="phone" placeholder="Tu Teléfono*">
+                                <i class="fal fa-phone"></i>
+                            </div>
+                            <div class="form-group style-border style-radius col-12">
+                                <input type="text" class="form-control" name="city" id="city" placeholder="Tu Ciudad*">
+                                <i class="fal fa-map-marker-alt"></i>
+                            </div>
+                            <div class="form-group style-border style-radius col-12">
+                                <input type="text" class="form-control" name="zip" id="zip" placeholder="Tu Código Postal*">
+                                <i class="fal fa-map-pin"></i>
+                            </div>
+                            <div class="form-group style-border style-radius col-md-12">
+                                <select name="unit_of_interest" id="unit_of_interest" class="form-select">
+                                    <option value="" disabled selected hidden>Selecciona unidad de interés</option>
+                                    <option value="Modelo 1">Modelo 1</option>
+                                    <option value="Modelo 2">Modelo 2</option>
+                                    <option value="Modelo 3">Modelo 3</option>
+                                    <option value="Modelo 4">Modelo 4</option>
+                                </select>
+                                <i class="fal fa-angle-down"></i>
+                            </div>
+                            <div class="col-12 form-group style-border style-radius">
+                                <i class="far fa-comments"></i>
+                                <textarea placeholder="Escribe tu mensaje" class="form-control"></textarea>
+                            </div>
+                            <div class="col-12 form-btn mt-4">
+                                <button class="th-btn">Solicitar información <span class="btn-icon"><img src="assets/img/icon/paper-plane.svg" alt="img"></span></button>
+                            </div>
+                        </div>
+                        <p class="form-messages mb-0 mt-3"></p>
+                    </form>
+                </div>
             </div>
         </div>
-    </section>
-
-
-    <!--==============================
+    </div>
+    <div class="location-map contact-sec-map z-index-common">
+        <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1424.4129333148487!2d-105.2068154!3d20.644552599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84214f9cb1d8522d%3A0xf7a991fbb34859bf!2sAgust%C3%ADn%20de%20Iturbide%2C%20Independencia%2C%2048327%20Puerto%20Vallarta%2C%20Jal.!5e1!3m2!1ses!2smx!4v1744836275305!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+        <div class="location-map-address bg-theme">
+            <div class="thumb">
+                <img src="assets/img/property/property_inner_1.jpg" alt="img">
+            </div>
+            <div class="media-body">
+                <h4 class="title">Dirección:</h4>
+                <p class="text">Independencia, Puerto Vallarta, Jal.</p>
+                <h4 class="title">Código Postal:</h4>
+                <p class="text">48327</p>
+            </div>
+        </div>
+    </div>
+</div><!--==============================
 
 
 	Footer Area
