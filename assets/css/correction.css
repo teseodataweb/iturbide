@@ -1,0 +1,70 @@
+.th-social.style3 a {
+    color: #A4B5BA;
+}
+
+.th-social a {
+    border: 1px solid #A4B5BA;
+}
+
+.service-card.style6 {
+    min-height: 365px;
+}
+
+@media (max-width: 1500px) {
+    .service-card.style6 {
+        min-height: 352px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .service-card.style6 {
+        min-height: 477px;
+    }
+}
+
+@media (max-width: 992px) {
+    .service-card.style6 {
+        min-height: 385px;
+    }
+}
+
+@media (max-width: 768px) {
+    .service-card.style6 {
+        min-height: 365px;
+    }
+}
+
+@media (max-width: 576px) {
+    .service-card.style6 {
+        min-height: 275px;
+    }
+}
+
+.centerVertical {
+    display: flex;
+    align-items: center; /* Centra el objeto verticalmente */
+}
+
+.centerHorizontal {
+    display: flex !important;
+    justify-content: center !important; /* (Opcional) Centra el objeto horizontalmente */
+}
+
+.centerObject {
+    display: flex;
+    align-items: center; /* Centra el objeto verticalmente */
+    justify-content: center; /* (Opcional) Centra el objeto horizontalmente */
+}
+
+.bg-gray {
+    background-color: #bbb6b6 !important;
+}
+
+.width-100 {
+    width: 100%;
+    max-width: 100%;
+}
+
+.maxHeight-120 {
+    max-height: 120px;
+}
