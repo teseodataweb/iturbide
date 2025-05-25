@@ -1,9 +1,58 @@
-.th-social.style3 a {
-    color: #A4B5BA;
+/* Aurora */
+@font-face {
+    font-family: 'Aurora';
+    src: url('../fonts/aurora/Aurora.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.th-social a {
-    border: 1px solid #A4B5BA;
+/* Poppins */
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.hero-title {
+  margin-bottom: 24px !important;
+  margin-top: -0.2em !important;
+  font-family: 'Wondra', sans-serif !important;
+}
+
+
+:root {
+    --theme-color: #1e305e;
+    --theme-color2: #eed26e;
+    --title-color: #0D0D0C;
+    --title-dark: #364440;
+    --body-color: #283541;
+    --smoke-color: #eeede4;
+    --smoke-color2: #283541;
+    --smoke-color3: #eeede4;
+    --black-color: #000000;
+    --black-color2: #1B1B1B;
+    --black-color3: #1A1A1A;
+    --gray-color: #eeede4;
+    --gray-color2: #eeede4;
+    --gray-color3: #eeede4;
+    --white-color: #eeede4;
+    --light-color: #283541;
+    --yellow-color: #eed26e;
+    --success-color: #27AE60;
+    --error-color: #c7835c;
+    --th-border-color: #eeede4;
+    --th-border-color2: #eeede4;
+    --title-font: 'Aurora', cursive, sans-serif !important;
+    --body-font: 'Poppins', Arial, sans-serif !important;
+    --icon-font: "Font Awesome 6 Pro";
+    --th-body-background: #eeede4;
 }
 
 .service-card.style6 {
@@ -57,7 +106,7 @@
 }
 
 .bg-gray {
-    background-color: #bbb6b6 !important;
+    background-color: #1e305e !important;
 }
 
 .width-100 {
