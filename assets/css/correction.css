@@ -13,6 +13,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Poppins';
     src: url('../fonts/poppins/Poppins-Bold.ttf') format('truetype');
@@ -21,9 +22,9 @@
 }
 
 .hero-title {
-  margin-bottom: 24px !important;
-  margin-top: -0.2em !important;
-  font-family: 'Wondra', sans-serif !important;
+    margin-bottom: 24px !important;
+    margin-top: -0.2em !important;
+    font-family: 'Wondra', sans-serif !important;
 }
 
 
@@ -91,21 +92,27 @@
 
 .centerVertical {
     display: flex;
-    align-items: center; /* Centra el objeto verticalmente */
+    align-items: center;
+    /* Centra el objeto verticalmente */
 }
 
 .centerHorizontal {
     display: flex !important;
-    justify-content: center !important; /* (Opcional) Centra el objeto horizontalmente */
+    justify-content: center !important;
+    /* (Opcional) Centra el objeto horizontalmente */
 }
 
 .centerObject {
     display: flex;
-    align-items: center; /* Centra el objeto verticalmente */
-    justify-content: center; /* (Opcional) Centra el objeto horizontalmente */
+    align-items: center;
+    /* Centra el objeto verticalmente */
+    justify-content: center;
+    /* (Opcional) Centra el objeto horizontalmente */
 }
 
-.text-theme {
+.box-number.text-theme,
+.counter-number.text-theme,
+.box-text.text-theme {
     color: #fff !important;
 }
 
@@ -125,12 +132,12 @@
     color: #fff;
 }
 
-.bg-gray {
-    background-color: #1e305e !important;
-}
-
 .error-text {
     color: #fff;
+}
+
+.bg-gray {
+    background-color: #1e305e !important;
 }
 
 .width-100 {
