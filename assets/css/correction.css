@@ -105,8 +105,32 @@
     justify-content: center; /* (Opcional) Centra el objeto horizontalmente */
 }
 
+.text-theme {
+    color: #fff !important;
+}
+
+.copyright-wrap .copyright-text {
+    color: #fff;
+}
+
+.footer-layout4 .footer-links a {
+    color: #fff;
+}
+
+.error-title {
+    color: #fff;
+}
+
+.error-subtitle {
+    color: #fff;
+}
+
 .bg-gray {
     background-color: #1e305e !important;
+}
+
+.error-text {
+    color: #fff;
 }
 
 .width-100 {
